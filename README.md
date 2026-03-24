@@ -2,32 +2,31 @@
 
 A Machine Learning project that analyzes the sentiment of tweets and classifies them into **Positive, Negative, or Neutral** categories using Natural Language Processing (NLP) techniques.
 
-This project demonstrates how text data from social media can be processed, analyzed, and used to understand public opinion.
+This project demonstrates how social media text can be processed and analyzed to understand public opinion.
 
 ---
 
 ## 📌 Project Overview
 
-Twitter is a major platform where people express opinions about products, politics, events, and trends. Analyzing these tweets can help identify public sentiment toward a topic.
+Twitter is a major platform where people share opinions about products, events, and trends. By analyzing these tweets, it is possible to understand overall public sentiment toward a topic.
 
-This project uses **Natural Language Processing (NLP)** and **Machine Learning** techniques to classify the sentiment of tweets.
+This project applies **Natural Language Processing (NLP)** and **Machine Learning** to classify tweet sentiment.
 
-The workflow includes:
-1. Data preprocessing
-2. Feature extraction
-3. Model training
+Main workflow:
+1. Data collection
+2. Data preprocessing
+3. Feature extraction
 4. Sentiment classification
 
 ---
 
 ## 🚀 Features
 
-- Tweet text preprocessing (cleaning, tokenization)
+- Tweet text preprocessing (cleaning and tokenization)
 - Removal of URLs, mentions, hashtags, and special characters
 - Feature extraction using NLP techniques
 - Sentiment classification using machine learning
-- Data visualization for sentiment distribution
-- Simple and easy-to-understand implementation
+- Visualization of sentiment distribution
 
 ---
 
@@ -45,4 +44,4 @@ The workflow includes:
 
 ## 📊 Data Collection (Live Twitter Scraping)
 
-Tweets used in this project are **scraped in real time from Twitter using the Twitter API** based on specific keywords or hashtags. The collected tweets are then **stored, preprocessed, and analyzed using NLP and machine learning techniques to classify their sentiment (positive, negative, or neutral)**.
+Tweets are collected **in real time from Twitter using the Twitter API** based on specific keywords or hashtags. The retrieved tweets are stored and processed before applying NLP techniques and machine learning models for sentiment classification.
