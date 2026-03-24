@@ -42,3 +42,7 @@ The workflow includes:
 - Matplotlib / Seaborn
 
 ---
+
+## 📊 Data Collection (Live Twitter Scraping)
+
+Tweets used in this project are **scraped in real time from Twitter using the Twitter API** based on specific keywords or hashtags. The collected tweets are then **stored, preprocessed, and analyzed using NLP and machine learning techniques to classify their sentiment (positive, negative, or neutral)**.
